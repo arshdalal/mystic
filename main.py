@@ -24,9 +24,13 @@ st.write('###')
 st.write('---')
 
 with st.container():
-    st.write('Picture of the virutal model, all of these are from the application rollerocaster simulation which take into account things like phyics, velocity, structre and base models')
+    st.subheader('Pictures of the virutal model')
+    st.write('all of these are from the application rollerocaster simulation which take into account things like phyics, velocity, structre and base models')
 
 my_image3 = Image.open('model1.jpg')
 st.image(my_image3)
 my_image4 = Image.open('model2.jpg')
 st.image(my_image4)
+
+st.write('---')
+st.subheader('Proof of code')
