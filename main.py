@@ -28,5 +28,5 @@ with st.container():
 
 my_image3 = Image.open('model1.jpg')
 st.image(my_image3)
-my_image4 = Image.open('model2.jpg)
+my_image4 = Image.open('model2.jpg')
 st.image(my_image4)
