@@ -5,7 +5,7 @@ with st.container():
     st.title('Mystic Hallow Webpage')
     st.write('Created using python and streamlit')
 
-my_image = Image.open("images/Mystic_Hallow.png")
+my_image = Image.open("Mystic_Hallow.png")
 st.image(my_image)
 
 with st.container():
@@ -17,7 +17,7 @@ with st.container():
         'as well as the speed of the ride!'
     )
 
-my_image2 = Image.open("images/Roller_thumbnail.jpg")
+my_image2 = Image.open("Roller_thumbnail.jpg")
 st.image(my_image2)
 st.write('[Video Link ->](https://www.youtube.com/watch?v=c1s9S0EIQLM&ab_channel=Shshhsjdj)')
 st.write('###')
