@@ -34,3 +34,6 @@ st.image(my_image4)
 
 st.write('---')
 st.subheader('Proof of code')
+my_image5 = Image.open('my_code.jpg')
+my_image6 = Image.open('my_code2.jpg)
+st.image(my_image5, my_image6)
